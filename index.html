@@ -6,9 +6,17 @@
         <link href="styles.css" rel="stylesheet">
         <title>My Webpage</title>
         <style>
+            .header {
+              background-color: #333;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 20px;
+            }
+
             body {
               margin: 0;
               font-family: Arial, Helvetica, sans-serif;
+              background-color:#666666;
             }
 
             .topnav {
@@ -30,13 +38,35 @@
               color: black;
             }
 
-            .topnav a.active {
-              background-color: #4CAF50;
+            .topnav .active {
+              background-color: #800000;
               color: white;
             }
+
+            .card {
+              text-align: center;
+              background-color: #008080 ;
+              color: black;
+              opacity: 0.5;
+            }
+
+            main {
+                text-align: center;
+                width: 50%;
+                margin: 0 auto;
+            }
+
+            .card-title {
+              font-weight: bold;
+            }
+
+
         </style>
     </head>
     <body>
+        <div class="header">
+          <h1>Eva Oostenbrink</h1>
+        </div>
         <div class="topnav">
           <a class="active" href="index.html">Home</a>
           <a href="werk.html">Werk</a>
@@ -44,10 +74,14 @@
           <a href="vrienden.html">Vrienden</a>
         </div>
 
-        <div style="padding-left:16px">
-          <h2>Eva Oostenbrink</h2>
-          <p>Some content..</p>
-        </div>
-
+        <main>
+            <p><div class="card" style="width: 100%;">
+              <div class="card-body">
+                <h5 class="card-title">Over mij</h5>
+                <p class="card-text">Hoi ik ben Eva Oostenbrink, en hier is mijn website waar ik een paar dingen vertel over mij en mijn interesses. Ik ben 18 jaar en jarig op 2 september.
+                In 2018 ben ik begonnen aan mijn eerste jaar informatiekunde en tot nu toe bevalt het erg goed. In mijn vrije tijd sport ik, werk ik en spreek ik met vrienden af. </p>
+              </div>
+        </main>
+        </div></p>
     </body>
 </html>
